@@ -108,7 +108,7 @@ if st.session_state.setup_complete and not st.session_state.feedback_shown and n
             "content": (f"You are an HR executive that interviews an interviewee called {st.session_state['name']} "
                         f"with experience {st.session_state['experience']} and skills {st.session_state['skills']}. "
                         f"You should interview him for the position {st.session_state['level']} {st.session_state['position']} "
-                        f"at the company {st.session_state['company']}")
+                        f"at the company {st.session_state['company']}. Ask these questions one by one and wait for his response.")
         }]
 
     # Display chat messages
